@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.enginecover{
+    width: 60px;
+    height: 60px;
+    z-index: 10000;
+    position: sticky;
+    
+}
+
+.bg{
+    width: 1512px;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    gap: 90px;
+    position: sticky;
+    top: 0px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+
+header{
+    background-color: black;
+}
+
+header>section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+header>section>h1{
+    color: white;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
