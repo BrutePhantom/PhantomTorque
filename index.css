@@ -8,6 +8,12 @@ html{
     color: white;
 }
 
+.history>img{
+    width: 100px;
+    height: 100px;
+    
+}
+
 body{
     background-color: black;
 }
@@ -55,13 +61,14 @@ header>section{
 .pt{
     color: white;
     position: absolute;
-    left: 450px;
-    bottom: 40px;
-    font-size: 90px;
+    left: 650px;
+    bottom: 10px;
     background-color: black;
     filter:opacity(0.8);
     padding: 15px;
     border-radius: 4px;
+    width: 200px;
+    height: auto;
 }
 
 .logo{
